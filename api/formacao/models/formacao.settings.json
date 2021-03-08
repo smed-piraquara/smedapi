@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formacaos",
+  "info": {
+    "name": "Formacao"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tematica": {
+      "type": "string",
+      "required": true
+    },
+    "coordenador": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "type": "string",
+      "required": true
+    },
+    "horario": {
+      "type": "string",
+      "required": true
+    },
+    "cargaHoraria": {
+      "type": "string",
+      "required": true
+    },
+    "confPresenca": {
+      "type": "string",
+      "required": true
+    },
+    "publicoAlvo": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

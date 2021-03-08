@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/formacaos",
+      "handler": "formacao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/formacaos/count",
+      "handler": "formacao.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/formacaos/:id",
+      "handler": "formacao.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/formacaos",
+      "handler": "formacao.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/formacaos/:id",
+      "handler": "formacao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/formacaos/:id",
+      "handler": "formacao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
